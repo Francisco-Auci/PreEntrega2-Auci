@@ -1,4 +1,4 @@
-import {ItemCunter} from '../../ItemCounter/ItemCoutainer' 
+import {ItemCuonter} from '../../Itemcounter/ItemCounter' 
   
 export const ItemDetail = ({ imageUrl, name, description, price, stock}) => {
     const onAdd = (cantidad) => {
@@ -18,7 +18,7 @@ export const ItemDetail = ({ imageUrl, name, description, price, stock}) => {
             <h4>Descripción: {description}</h4>
             <h4>Precio: {price}</h4>
             <h4>Stock: {Stock}</h4>
-            <ItemCunter onAdd={onAdd} inital={1} stock={10} />
+            <ItemCuonter onAdd={onAdd} inital={1} stock={10} />
         </div>
     </div>
   )

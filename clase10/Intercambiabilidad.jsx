@@ -61,7 +61,7 @@ const Intercambiabilidad = () => {
                 : 
                     <InputCount />
             }
-             {/* <Count onConfirm={addToCart} maxQuantity={itemMax} />  */}
+             
         </center>
     )
 }
